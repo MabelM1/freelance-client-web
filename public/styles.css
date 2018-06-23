@@ -1,0 +1,70 @@
+body {
+	font-weight: 300;
+	line-height: 1.7;
+	font-family: "Montserrat", sans-serif;
+}
+
+nav {
+	font-family: "Tajawal", sans-serif;
+	letter-spacing: 0.08em;
+	margin-bottom: 40px;
+}
+
+.navbar-custom {
+	background-color: #ff5c5c;
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(0, 0, 0);
+}
+
+.navbar-collapse {
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron-custom {
+	background-image: url("./images/cityimage.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	height: 60vh;
+}
+
+.background-text {
+	background: rgba(0, 0, 0, 0.3); /* Black background with transparency */
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+
+.work-section {
+	background-color: #e2efef;
+	padding-bottom: 2em;
+}
+
+#about {
+	height: 50vh;
+	padding-top: 3em;
+	margin-bottom: 5em;
+	line-height: 2;
+	font: 2.5em;
+}
+
+#work {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#work h3 {
+	padding-bottom: 1em;
+	font-weight: 900;
+	color: rgba(140, 140, 140, 1);
+	letter-spacing: 0.08em;
+}
