@@ -1,7 +1,12 @@
+:root {
+	font-size: 1em;
+}
+
 body {
 	font-weight: 300;
 	line-height: 1.7;
 	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
 }
 
 nav {
@@ -49,22 +54,29 @@ nav {
 	padding-bottom: 2em;
 }
 
-#about {
-	height: 50vh;
+.about {
 	padding-top: 3em;
-	margin-bottom: 5em;
+	padding-bottom: 5em;
 	line-height: 2;
-	font: 2.5em;
 }
 
-#work {
+.work {
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 }
 
-#work h3 {
+.work h3 {
 	padding-bottom: 1em;
 	font-weight: 900;
 	color: rgba(140, 140, 140, 1);
 	letter-spacing: 0.08em;
+	font-size: 1.8rem;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23dd3942' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23dd3942' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
